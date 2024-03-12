@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int rc(int n){
-    int tmp = 0;
-    if(n <= 0){
-        return n;
+    
+    if(n <= 1){
+        return 1;
     }
     else return (n + rc(n-1));
 
